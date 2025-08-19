@@ -1,0 +1,18 @@
+.foodBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.foodBox img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.foodBox p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #424242;
+}

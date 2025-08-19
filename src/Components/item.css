@@ -1,0 +1,65 @@
+.itemBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  width: 220px;
+  font-family: sans-serif;
+}
+
+.img1 {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.itemBox h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin: 6px 0 0 0;
+}
+
+.itemBox h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #F17228; /* жёлто-оранжевый как на фото */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+
+.itemBox h6 img {
+  width: 16px;
+  height: 16px;
+}
+
+.itemBox p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin: 4px 0;
+}
+
+.itemBox button {
+  width: 100%;
+  background: #F17228;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.itemBox button:hover {
+  background: #d45f1e;
+}

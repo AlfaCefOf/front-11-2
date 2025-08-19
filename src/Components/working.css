@@ -1,0 +1,19 @@
+.workWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.workWrap h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #434343;
+}
+
+.workWrap p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #9E9E9E;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.deadLine {
+  background-color: #FEEFD0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  margin-top: 80px;
+}
+
+.deadLineBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 46px;
+  padding: 70px 60px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.06);
+  gap: 40px;
+}
+
+.deadLineBox ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.deadLineBox ul:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 70px;
+  background: #E5E5E5;
+}
+
+.deadLineBox img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.deadLineBox p {
+  background: linear-gradient(to right, #FB3C00, #FFB800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+}
