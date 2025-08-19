@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { Toaster } from "react-hot-toast";
-import "./app.css";
+import "./App.css";
 import Header from "./header";
 import Section from "./section";
 import Remain from "./Components/remain";
